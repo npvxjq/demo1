@@ -19,6 +19,6 @@ public class HelloController {
 
     @GetMapping("/test")
     public ResponseEntity test() {
-        return ResponseEntity.ok().body("test");
+        return ResponseEntity.ok().body("test2");
     }
 }
